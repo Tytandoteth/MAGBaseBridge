@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-dark text-text-primary font-sans;
+  }
+}
+
+/* RainbowKit Custom Styles */
+[data-rk] {
+  --rk-colors-accentColor: #2DFFF9 !important;
+  --rk-colors-accentColorForeground: #000000 !important;
+  --rk-colors-actionButtonBorder: rgba(45, 255, 249, 0.2) !important;
+  --rk-colors-actionButtonBorderMobile: rgba(45, 255, 249, 0.2) !important;
+  --rk-colors-actionButtonSecondaryBackground: rgba(45, 255, 249, 0.1) !important;
+  --rk-colors-closeButton: #DAEFFF !important;
+  --rk-colors-closeButtonBackground: rgba(218, 239, 255, 0.1) !important;
+  --rk-colors-connectButtonBackground: #2DFFF9 !important;
+  --rk-colors-connectButtonBackgroundError: #FF7777 !important;
+  --rk-colors-connectButtonInnerBackground: #2DFFF9 !important;
+  --rk-colors-connectButtonText: #000000 !important;
+  --rk-colors-connectButtonTextError: #FFFFFF !important;
+  --rk-colors-error: #FF7777 !important;
+  --rk-colors-generalBorder: rgba(45, 255, 249, 0.1) !important;
+  --rk-colors-generalBorderDim: rgba(45, 255, 249, 0.05) !important;
+  --rk-colors-menuItemBackground: rgba(45, 255, 249, 0.1) !important;
+  --rk-colors-modalBackdrop: rgba(0, 0, 0, 0.5) !important;
+  --rk-colors-modalBackground: #1A1A1A !important;
+  --rk-colors-modalBorder: rgba(45, 255, 249, 0.1) !important;
+  --rk-colors-modalText: #DAEFFF !important;
+  --rk-colors-modalTextDim: rgba(218, 239, 255, 0.7) !important;
+  --rk-colors-modalTextSecondary: rgba(218, 239, 255, 0.6) !important;
+  --rk-colors-profileAction: rgba(45, 255, 249, 0.1) !important;
+  --rk-colors-profileActionHover: rgba(45, 255, 249, 0.2) !important;
+  --rk-colors-profileForeground: rgba(45, 255, 249, 0.05) !important;
+  --rk-colors-selectedOptionBorder: rgba(45, 255, 249, 0.1) !important;
+  --rk-colors-standby: #2DFFF9 !important;
+}
